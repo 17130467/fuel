@@ -119,6 +119,7 @@ public class Nalog extends JFrame {
 				sum_ok.setMargin(new Insets(2, 5, 2, 5));
 				ButtonGroup group = new ButtonGroup();
 				rad_13 = new JRadioButton("Иное", false);
+				rad_13.setOpaque(true);
 				group.add(rad_13);
 				rad_13.setHorizontalAlignment(JRadioButton.LEFT);
 				rad_13_1 = new JRadioButton("Любой доход гражданина ЕАЭС", false);
