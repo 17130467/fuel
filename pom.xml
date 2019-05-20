@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>fuel</name>
-  <url>https://github.com/17130467/calcnal</url>
+  <url>https://github.com/17130467/fuel</url>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
