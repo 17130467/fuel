@@ -13,8 +13,8 @@ public class Password extends JPanel implements ActionListener {
 	private static String HELP = "help";
 	private JFrame controllingFrame;
 	private JPasswordField passwordField;
-	Font font = new Font("TimesRoman", Font.BOLD, 12);
-	Border bor = new LineBorder(Color.green);
+	static Font font = new Font("TimesRoman", Font.BOLD, 12);
+	static Border bor = new LineBorder(Color.green);
 
 	public Password(JFrame f) {
 		controllingFrame = f;
