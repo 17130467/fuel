@@ -66,6 +66,8 @@ public class Nalog extends JFrame {
 	}
 
 	public static void main2(String[] args) {
+			 Font font = new Font("TimesRoman", Font.BOLD, 12);
+	 Border bor = new LineBorder(Color.green);
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				final JFrame form2 = new JFrame();
@@ -240,6 +242,8 @@ public class Nalog extends JFrame {
 	}
 
 	public static void main1(String[] args) {
+			 Font font = new Font("TimesRoman", Font.BOLD, 12);
+	 Border bor = new LineBorder(Color.green);
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				final JFrame form3 = new JFrame("");
