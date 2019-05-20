@@ -33,8 +33,8 @@ public class Nalog extends JFrame {
 	private JLabel label_1;
 	public static double int_rad;
 	static int a = 13, a1 = 13, a2 = 15, a3 = 30, a4 = 35;
-	static Font font = new Font("TimesRoman", Font.BOLD, 12);
-	static Border bor = new LineBorder(Color.green);
+	 Font font = new Font("TimesRoman", Font.BOLD, 12);
+	 Border bor = new LineBorder(Color.green);
 
 	public Nalog() {
 		setTitle("Меню");
