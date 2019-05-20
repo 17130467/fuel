@@ -49,7 +49,7 @@ public class Password extends JPanel implements ActionListener {
 		if (OK.equals(cmd)) {
 			char[] input = passwordField.getPassword();
 			if (isPasswordCorrect(input)) {
-				JOptionPane.showMessageDialog(controllingFrame, "Пароль правильный");
+				JOptionPane.showMessageDialog(controllingFrame, "Пароль правильный", "Успех",JOptionPane.INFORMATION_MESSAGE);
 				Nalog.main1(null);
 				controllingFrame.dispose();
 			} else {
